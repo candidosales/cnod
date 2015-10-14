@@ -19,13 +19,13 @@ $wt-ribbon-border-color: #72e1b3;
             transition-delay: .15s;
         }
     }
-    .gdg {
+    .gdg, .gnlj {
         border-right: 4px solid $gdg-ribbon-border-color;
     }
-    .gdgw {
+    .gdgw, .ex-mcn {
         border-right: 4px solid $gdgw-ribbon-border-color;
     }
-    .gde {
+    .gde, .den {
         border-right: 4px solid $gde-ribbon-border-color;
     }
     .wt {
@@ -50,21 +50,21 @@ $wt-ribbon-border-color: #72e1b3;
     }
     .abbr {
         .ribbon-activator:hover & {
-            transform: translateX(100%); 
+            transform: translateX(100%);
             @media (max-width: 767px) {
-                transform: translateX(0);    
-            }   
-        }    
+                transform: translateX(0);
+            }
+        }
     }
     .full-title {
         clear: both;
         margin-top: -22px;
         transform: translateX(100%);
         .ribbon-activator:hover & {
-            transform: translateX(0);   
+            transform: translateX(0);
             @media (max-width: 767px) {
-                transform: translateX(100%);    
-            } 
-        } 
+                transform: translateX(100%);
+            }
+        }
     }
 }

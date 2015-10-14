@@ -10,27 +10,27 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "GDG DevFest Season 2014"
-email: "devfest@gdg.org.ua"
-description: "GDG DevFest is a set of events all around the world"
-baseurl: "/zeppelin"
-url: "https://gdg-x.github.io"
+title: "XXIII Congresso Nacional da Ordem DeMolay"
+email: "organizacao@23cnod.com"
+description: "XXIII Congresso Nacional da Ordem DeMolay"
+baseurl: ""
+url: "http://localhost:4000"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
 googleAnalyticsSiteUrl: "gdg-x.github.io"
 siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
-organizerName: "GDG Lviv"
+organizerName: "Secretário do Congresso"
 organizerAlternateName: "Google Developer Group Lviv"
 organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "lviv@gdg.org.ua"
+organizerEmail: "organizacao@23cnod.com"
 organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "http://lviv.gdg.org.ua/"
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
-twitterAccount: "@DevFest"
+metaKeywords: "23, cnod, demolay, brasil, piaui, teresina"
+twitterAccount: "@23CNOD"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
@@ -44,85 +44,82 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/team/", text: "Team"}
- - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/hackathon/", text: "Hackathon"}
+ - {permalink: "/programacao/", text: "Programação"}
+ - {permalink: "/palestrantes/", text: "Palestrantes"}
+ - {permalink: "/equipe/", text: "Equipe"}
+ - {permalink: "/logistica/", text: "Logística"}
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {permalink: "/#tickets", text: "Inscreva-se"}
 rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {permalink: "/#tickets", text: "Inscreva-se"}
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
-eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
-typeoutFallback: "Season"
+heroTitle: "23° CNOD - <typeout>"
+eventDate: "Teresina, Outubro, 2016"
+typeoutTextValues: '"Amor Filial", "Cortesia", "Companherismo", "Fidelidade", "Pureza", "Patriotismo"'
+typeoutFallback: "Teresina"
 heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
- - {permalink: "/#tickets", text: "Buy tickets"}
+ - {permalink: "/#tickets", text: "Faça sua inscrição"}
 
 # About Block
-aboutTitle: "About GDG DevFest"
+aboutTitle: "Sobre 23° CNOD"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "Congresso", image: "conference.jpg", text: "2 dias de sessões que determinaram as atividades da Ordem para o ano de 2017" }
+ - {title: "Workshops", image: "workshop.jpg", text: "Workshops de Ritualística, Administração e Legislação Capitular" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+ - {count: "350", specialCharacter: "+", info: "participantes", detail: "de todo lugar"}
+ - {count: "48", specialCharacter: "+", info: "horas", detail: "de puro conteúdo DeMolay"}
+ - {count: "3", specialCharacter: "+", info: "palestrantes", detail: "do país e região"}
+ - {count: "2", specialCharacter: "", info: "passeios regionais", detail: "para conhecer melhor nossa capital"}
 
 # Latest News Block
-latestNewsTitle: "Latest news"
+latestNewsTitle: "Últimas notícias"
 
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
 rockstarSpeakersCount: 4
-rockstarSpeakersTitle: "Rockstar speakers"
-rockstarSpeakersButtonText: "See all speakers"
+rockstarSpeakersTitle: "Palestrantes"
+rockstarSpeakersButtonText: "Veja todos palestrantes"
 
 # Location Block
-locationBlockTitle: "Location"
-eventLocationName: "Conference Hall"
-eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
-eventStreetAddress: "22 Teatral'na St"
-eventAddressLocality: "Lviv"
-eventAddressLocalityRegion: "Lvivska"
-eventPostalCode: "79000"
-eventAddressCountry: "Ukraine"
-eventStartTime: "2014-10-25T10:00"
+locationBlockTitle: "Localização"
+eventLocationName: "Blue Tree Towers Rio Poty Hotel"
+eventLocationLink: "http://www.bluetree.com.br/hotel/blue-tree-towers-rio-poty/"
+eventStreetAddress: "Av. Mal. Castelo Branco, 555 - Ilhotas"
+eventAddressLocality: "Teresina"
+eventAddressLocalityRegion: "Piauí"
+eventPostalCode: "64014058"
+eventAddressCountry: "Brasil"
+eventStartTime: "2016-10-24T10:00"
 eventDoorTime: "09:00"
-eventEndTime: "2014-10-25T20:00"
-eventPlaceCoordinates: "49.843237, 24.028751"
-mapCenterCoordinates: "49.842537, 24.025701"
-mapMobileCenterCoordinates: "49.841620, 24.029411"
+eventEndTime: "2016-10-25T20:00"
+eventPlaceCoordinates: "-5.0873815, -42.7961361"
+mapCenterCoordinates: "-5.0873815, -42.7961361"
+mapMobileCenterCoordinates: "-5.0873815, -42.7961361"
 
 # Venue Block
-venueBlockTitle: "Venue"
+venueBlockTitle: "Ponto de encontro"
 venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
 venueSmallImage2: "venue_2.jpg"
 venueSmallImage3: "venue_3.jpg"
-venueTitle: "Kinopalace Cinema"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueTitle: "Auditório Samambaia"
+venueFeatures: ["3 telões", "Sistema de aúdio Doulby Digital Surround EX", "Localizado próximo ao Rio Poty"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
-tweetsFeedTitle: "What's Up?"
-twitterHashTag: "devfest"
+tweetsFeedTitle: "E aí?"
+twitterHashTag: "23CNOD"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
-organizersTitle: "Organizers"
-partnersTitle: "Partners"
-partnersC4sponsorsButton: "Become a sponsor"
+organizersTitle: "Organizadores"
+partnersTitle: "Parceiros"
+partnersC4sponsorsButton: "Seja um patrocinador"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
@@ -131,40 +128,40 @@ subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b05
 subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
 
 # Tickets Block
-ticketsTitle: "Pricetable"
-ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsTitle: "Preços"
+ticketsInfo: "Todos as entradas garantem o acesso a toda programação do evento, coffee breakes, almoços e hospedagem no hotel."
 ticketsOffers:
  -
   name: "Early Bird"
   price: "350"
-  priceCurrency: "UAH"
+  priceCurrency: "R$"
   ticketsNumber: "150"
   ribbon: "-5%"
   buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
+  buyButtonText: "Compre agora"
   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
   validFrom: "2014-08-25T10:00"
   validThrough: "2014-09-30T23:59"
  -
-  name: "Last Chance"
+  name: "Última Chance"
   price: "450"
-  priceCurrency: "UAH"
+  priceCurrency: "R$"
   ticketsNumber: "100"
   ribbon: "-20%"
   featured: true
   buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
+  buyButtonText: "Compre agora"
   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
   validFrom: "2014-10-01T00:00"
   validThrough: "2014-10-23T23:59"
   disabled: true
  -
-  name: "Student"
+  name: "DeMolay"
   price: "200"
-  priceCurrency: "UAH"
+  priceCurrency: "R$"
   ticketsNumber: "50"
   buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
+  buyButtonText: "Compre agora"
   additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
   validFrom: "2014-08-20T10:00"
@@ -174,27 +171,27 @@ ticketsOffers:
 
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
+ - {link: "https://twitter.com/intent/user?screen_name=23CNOD", icon: "twitter"}
+ - {link: "https://facebook.com/23", icon: "facebook"}
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-   - {link: "https://developers.google.com", text: "Google Developers"}
+   - {link: "http://demolaypi.org.br/", text: "DeMolay Piauí"}
+   - {link: "http://demolay.org.br/", text: "SCODB"}
+   - {link: "http://sisdm.demolay.org.br/Index.action", text: "SISDM"}
  -
-  title: "Contacts"
+  title: "Contatos"
   links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
+   - {link: "mailto:organizacao@23cnod.com", text: "organizacao@23cnod.com"}
  -
   title: "FAQ"
   links:
    - {permalink: "/cod/", text: "Code of Conduct"}
 
 # Blog
-blogTitle: "Latest news"
+blogTitle: "Últimas notícias"
 blogCommentsEnabled: true
 discusShortName: "devfestua"
 
@@ -202,57 +199,52 @@ discusShortName: "devfestua"
 showSessions: true
 
 # Team Block
-teamBlockTitle: "About us"
-aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
+teamBlockTitle: "Sobre nós"
+aboutUs: "Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa."
 
 # Logistics Find Way Block
-findWayTitle: "Find your way here"
-findWayDistance: "Distance"
-findWayDriving: "DRIVING"
-findWayWalking: "WALKING"
-findWayBicycling: "BICYCLING"
-findWayTransit: "TRANSIT"
-findWayFindFlight: "Find Flight"
-logisticsMapCenterCoordinates: "49.056728, 3.117289"
-logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
+findWayTitle: "Encontre seu caminho"
+findWayDistance: "Distância"
+findWayDriving: "Dirigindo"
+findWayWalking: "Caminhando"
+findWayBicycling: "Bicicleta"
+findWayTransit: "Trânsito"
+findWayFindFlight: "Encontre um vôo"
+logisticsMapCenterCoordinates: "-5.0873815, -42.7961361"
+logisticsMapMobileCenterCoordinates: "-5.0873815, -42.7961361"
 logisticsMapAutoDirections: false
 
 # Logistics Direction Details Block
 directionDetailsImage: "direction-details.jpg"
-directionDetailsTitle: "Get around Lviv"
+directionDetailsTitle: "Comece ao redor de Teresina"
 directionDetailsCards:
- - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
- - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
- - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
+ - {title: "Do aeroporto", information: 'Aeroporto está à esquerda da cidade. É facilmente acessível por carro, transporte público ou táxi. Mais informações estão disponíveis no <a href="http://www.infraero.gov.br/index.php/aeroportos/piaui/aeroporto-de-teresina.html">site do aeroporto</a>.'}
+ - {title: "Hóteis", information: 'Teresina tem muitos bons hotéis e pousadas. Mais informações estarão disponíveis em breve.'}
+ - {title: "City Tour", information: 'Esse passeio, de aproximadamente 4 horas, fornece ao visitante uma visão geral de Teresina e um contato com o passado e o presente da “Cidade Verde”. São visitados: Parque Municipal da Floresta Fóssil, Centro Cívico, Centro Cultural e Histórico, além pontos como Encontro dos Rios e mirante da ponte Estaiada. <a href="http://piauitour.com/novo/2010/02/citytour-em-teresina/" target="_blank">Mais informações sobre o serviço no link.</a>'}
 directionDetailsWideCards:
  -
-  title: "Questions?"
+  title: "Dúvidas?"
   subCards:
    -
-    title: "Hotels"
+    title: "Hóteis"
     links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+     - {link: "http://www.metropolitanhotel.com.br/", text: "Metropolitan Hotel"}
+     - {link: "http://www.bluetree.com.br/hotel/blue-tree-towers-rio-poty/", text: "Blue Tree Towers Rio Poty Hotel"}
    -
-    title: "Registration"
+    title: "Credenciamento"
     links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+     - {link: "http://www.bluetree.com.br/hotel/blue-tree-towers-rio-poty/", text: "Blue Tree Towers Rio Poty Hotel"}
    -
-    title: "Attendance Details"
+    title: "Entretenimento"
     links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Pontos Turísticos"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Pubs"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Restaurantes"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Shows"}
 
 # Hackathon
 hackathonTitle: "Hackathon"
-enableHackathon: true
+enableHackathon: false
 
 # Hackathon About Block
 aboutHackathonTitle: "Meet our themes"
@@ -285,7 +277,7 @@ hackathonTimeTitle: "Hack through"
 hackathonStartTime: "2014-10-24T10:00"
 hackathonDoorTime: "09:00"
 hackathonEndTime: "2014-10-25T00:00"
-viewOnMap: "View on Google Maps"
+viewOnMap: "Veja no Google Maps"
 hackathonPlaceCoordinates: "49.840999, 24.031144"
 hackathonMapCenterCoordinates: "49.840696, 24.028754"
 hackathonMapMobileCenterCoordinates: "49.841639, 24.031182"

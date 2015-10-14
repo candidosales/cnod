@@ -103,7 +103,7 @@
             if(window.location.href.indexOf("schedule") > -1 && window.location.hash) {
                 var hash = window.location.hash;
                 $(hash).click();
-            } 
+            }
         });
 
         $(function() {
@@ -474,16 +474,16 @@
                         var distance = Math.round(google.maps.geometry.spherical.computeDistanceBetween(origin, eventPlace) / 1000);
                         $('#distance').text(distance + ' km');
                         $('#estimateTime').text('');
-                        $('#find-flight').removeClass('hidden');
                         $('#mode').addClass('hidden');
                     }
+                    $('#find-flight').removeClass('hidden');
                 });
                 deleteMarkers();
                 $('#find-way').addClass('location-active');
                 setDirectionInput(origin);
                 $('#find-way h3').removeClass('fadeInUp').addClass('fadeOutDown');
             }
-            
+
             function calcRouteFromMyLocation() {
                 if (navigator.geolocation) {
                     navigator.geolocation.getCurrentPosition(function(position) {

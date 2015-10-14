@@ -1,60 +1,75 @@
-- 
+-
   id: 0
-  name: "Vitaliy"
-  surname: "Zasadnyy"
-  title: "Sponsors and Speakers Manager"
-  thumbnailUrl: VitaliyZasadnyy.jpg
+  name: "Daniel"
+  surname: "Santos"
+  title: "Comissão de Cerimonial"
+  thumbnailUrl: DanielSantos.jpg
   team: true
-  ribbon: 
+  ribbon:
     - {abbr: "GDG", title: "Google Developer Group"}
-  social: 
-    - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
-    - {name: "twitter", link: "https://twitter.com/zasadnyy"}
-    - {name: "github", link: "https://github.com/zasadnyy"}
-    - {name: "site", link: "http://zasadnyy.com/"}
-- 
+  social:
+    - {name: "facebook", link: "https://www.facebook.com/danielsantosousa"}
+-
   id: 1
-  name: "Oleh"
-  surname: "Zasadnyy"
-  title: "Designer and Web Developer"
-  thumbnailUrl: OlehZasadnyy.jpg
+  name: "Cândido"
+  surname: "Sales"
+  title: "Comissão de Comunicação"
+  thumbnailUrl: CandidoSales.jpg
   team: true
-  ribbon: 
+  ribbon:
     - {abbr: "GDG", title: "Google Developer Group"}
-  social: 
-    - {name: "google-plus", link: "https://google.com/+OlehZasadnyy"}
-    - {name: "github", link: "https://github.com/ozasadnyy"}
-- 
+  social:
+    - {name: "twitter", link: "https://twitter.com/candidosales"}
+    - {name: "github", link: "https://github.com/candidosales"}
+    - {name: "facebook", link: "https://www.facebook.com/candidosales"}
+    - {name: "site", link: "https://candidosalesg.wordpress.com/blog/"}
+-
   id: 2
-  name: "Ostap"
-  surname: "Andrusiv"
-  title: "Sponsors and Speakers Manager"
-  thumbnailUrl: OstapAndrusiv.jpg
+  name: "Johann"
+  surname: "Barros"
+  title: "Comissão de Entretenimento"
+  thumbnailUrl: JohannBarros.jpg
   team: true
-  ribbon: 
+  ribbon:
     - {abbr: "GDG", title: "Google Developer Group"}
-  social: 
-    - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
-    - {name: "twitter", link: "https://twitter.com/p1f"}
-    - {name: "site", link: "http://andrusiv.com/"}
-- 
+  social:
+    - {name: "facebook", link: "https://www.facebook.com/johann.barros"}
+-
+  id: 3
+  name: "Marcelo"
+  surname: "Victor"
+  title: "Comissão de Finanças e Patrocínios"
+  thumbnailUrl: MarceloVictor.jpg
+  team: true
+  ribbon:
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social:
+    - {name: "facebook", link: "https://www.facebook.com/marcelo.v.leal"}
+-
   id: 4
-  name: "Dmytro"
-  surname: "Danylyk"
-  title: "Android Program Committee"
-  thumbnailUrl: DmytroDanylyk.jpg
-  subTeam: true
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
-    - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
-    - {name: "github", link: "https://github.com/dmytrodanylyk"}
-- 
-  id: 7
-  name: "Valentyn"
-  surname: "Shybanov"
-  title: "Web and Cloud Program Committee"
-  thumbnailUrl: ValentynShybanov.jpg
-  subTeam: true
-  social: 
-    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
-    - {name: "site", link: "http://olostan.name/"}
+  name: "Darlan"
+  surname: "Alysson"
+  title: "Comissão de Logística"
+  thumbnailUrl: DarlanSoares.jpg
+  team: true
+  social:
+    - {name: "facebook", link: "https://www.facebook.com/darlanallyson.coelhosoares"}
+-
+  id: 5
+  name: "Higo"
+  surname: "Soares"
+  title: "Comissão de Inscrição e Credenciamento"
+  thumbnailUrl: HigoMatos.jpg
+  team: true
+  social:
+    - {name: "facebook", link: "https://www.facebook.com/higomatos"}
+# -
+#   id: 7
+#   name: "Valentyn"
+#   surname: "Shybanov"
+#   title: "Web and Cloud Program Committee"
+#   thumbnailUrl: ValentynShybanov.jpg
+#   subTeam: true
+#   social:
+#     - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
+#     - {name: "site", link: "http://olostan.name/"}
