@@ -160,6 +160,17 @@ time {
         animation: reveal 3s steps(1) 0s infinite;
     }
 }
+
+.spinner {
+    position: absolute;
+    top: -webkit-calc(50% - 33px);
+    top: calc(50% - 33px);
+    left: -webkit-calc(50% - 33px);
+    left: calc(50% - 33px);
+    -webkit-animation: rotator 3s linear infinite;
+    animation: rotator 3s linear infinite;
+}
+
 @keyframes base {
     0% {
         transform: rotate(0deg);

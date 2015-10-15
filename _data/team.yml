@@ -2,7 +2,7 @@
   id: 0
   name: "Daniel"
   surname: "Santos"
-  title: "Comissão de Cerimonial"
+  title: "Cerimonial"
   thumbnailUrl: DanielSantos.jpg
   team: true
   ribbon:
@@ -13,7 +13,7 @@
   id: 1
   name: "Cândido"
   surname: "Sales"
-  title: "Comissão de Comunicação"
+  title: "Comunicação"
   thumbnailUrl: CandidoSales.jpg
   team: true
   ribbon:
@@ -27,7 +27,7 @@
   id: 2
   name: "Johann"
   surname: "Barros"
-  title: "Comissão de Entretenimento"
+  title: "Entretenimento"
   thumbnailUrl: JohannBarros.jpg
   team: true
   ribbon:
@@ -38,7 +38,7 @@
   id: 3
   name: "Marcelo"
   surname: "Victor"
-  title: "Comissão de Finanças e Patrocínios"
+  title: "Finanças e Patrocínios"
   thumbnailUrl: MarceloVictor.jpg
   team: true
   ribbon:
@@ -48,8 +48,8 @@
 -
   id: 4
   name: "Darlan"
-  surname: "Alysson"
-  title: "Comissão de Logística"
+  surname: "Soares"
+  title: "Logística"
   thumbnailUrl: DarlanSoares.jpg
   team: true
   social:

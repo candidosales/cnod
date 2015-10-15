@@ -1,6 +1,47 @@
 <!-- Begin Hero Section -->
-<section id="top-section-hero" class="top-section-hero top-section image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.heroImage }}');">
+<section id="top-section-hero" class="top-section-hero top-section image-section">
     {% include navigation.html %}
+    <script>
+     var places = ['jenipapo', 'barra-grande', 'pedra-furada', 'cajuina', 'maria-isabel', 'teresina'];
+     var index = 1;
+     var loop = setInterval(function(){
+                  $(".place").removeClass("current-place");
+                  $("."+places[index++]).addClass("current-place");
+                  index = index == places.length ? 0 : index;
+                }, 7000);
+    </script>
+    <div class="places">
+      <div class="place jenipapo">
+        <div class="imgs">
+          <img src="/img/places/1.jpg" title="Monumento Batalha do Jenipapo" alt="Monumento Batalha do Jenipapo" class="main-img">
+        </div>
+      </div>
+      <div class="place barra-grande">
+        <div class="imgs">
+          <img src="/img/places/2.jpg" title="Praia de Barra Grande" alt="Praia de Barra Grande" class="main-img">
+        </div>
+      </div>
+      <div class="place pedra-furada">
+        <div class="imgs">
+          <img src="/img/places/3.jpg" title="Pedra Furada de São Raimundo Nonato" alt="Pedra Furada de São Raimundo Nonato" class="main-img">
+        </div>
+      </div>
+      <div class="place cajuina">
+        <div class="imgs">
+          <img src="/img/places/4.jpg" title="Cajuína" alt="Cajuína" class="main-img">
+        </div>
+      </div>
+      <div class="place maria-isabel">
+        <div class="imgs">
+          <img src="/img/places/5.jpg" title="Maria Isabel" alt="Maria Isabel" class="main-img">
+        </div>
+      </div>
+      <div class="place teresina">
+        <div class="imgs">
+          <img src="/img/places/6.jpg" title="Teresina" alt="Teresina" class="main-img">
+        </div>
+      </div>
+    </div>
     <div class="content-wrapper">
     <div class="jumbotron">
         <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
