@@ -1,0 +1,18 @@
+-
+  id: 1
+  name: "facebook"
+  title: "facebook.com/cnod23"
+  link: "http://facebook.com/cnod23"
+  viewBox: "0 0 30 32"
+-
+  id: 2
+  name: "instagram"
+  title: "instagram.com/cnod23"
+  link: "http://instagram.com/cnod23"
+  viewBox: "0 0 512 512"
+-
+  id: 3
+  name: "twitter"
+  title: "twitter.com/cnod23"
+  link: "http://twitter.com/cnod23"
+  viewBox: "0 0 30 32"

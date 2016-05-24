@@ -10,9 +10,9 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "XXIII Congresso Nacional da Ordem DeMolay"
+title: "XXIII Congresso Nacional da Ordem DeMolay - 11 e 12 Novembro - Teresina, Piauí"
 email: "organizacao@23cnod.com"
-description: "XXIII Congresso Nacional da Ordem DeMolay"
+description: "Participe do XXIII Congresso Nacional da Ordem DeMolay que ocorrerá nos dias 11 e 12 de Novembro de Teresina-PI"
 baseurl: ""
 url: "http://localhost:4000"
 permalink: "/blog/:title"
@@ -45,9 +45,10 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/programacao/", text: "Programação"}
- - {permalink: "/palestrantes/", text: "Palestrantes"}
+ - {permalink: "/capitulo-luiz-neto/", text: "Capítulo Luiz Neto"}
  - {permalink: "/equipe/", text: "Equipe"}
  - {permalink: "/logistica/", text: "Logística"}
+ 
 bottomNavigationLinks:
  - {permalink: "/#tickets", text: "Inscreva-se"}
 rightNavigationButtons:
@@ -55,26 +56,29 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "23° CNOD - <typeout>"
-eventDate: "Teresina, Outubro, 2016"
+heroTitle: "XXIII CNOD - <typeout>"
+eventDate: "Teresina, 11 e 12 de Novembro, 2016"
 typeoutTextValues: '"Amor Filial", "Cortesia", "Companherismo", "Fidelidade", "Pureza", "Patriotismo"'
 typeoutFallback: "Teresina"
 heroButtons:
  - {permalink: "/#tickets", text: "Faça sua inscrição"}
 
 # About Block
-aboutTitle: "Sobre 23° CNOD"
+aboutTitle: "Sobre XXIII CNOD"
 aboutBlock:
- - {title: "Congresso", image: "conference.jpg", text: "2 dias de sessões que determinaram as atividades da Ordem para o ano de 2017" }
- - {title: "Workshops", image: "workshop.jpg", text: "Workshops de Ritualística, Administração e Legislação Capitular" }
+ - {title: "Abertura dos sonhos", image: "conference.jpg", text: "Nosso objetivo, ao propor a organização do CNOD 2016, era fazer algo totalmente diferente e inovador. Quebra paradigmas. Revolucionar o modo de se pensar os Congressos DeMolay. Para fazer jus a esse objetivo, convidamos você para se programar em NÃO PERDER a Abertura do Congresso Nacional, a se realizar na noite da sexta-feira, 11 de novembro de 2016. Serão tantas surpresas e emoções... Você nunca mais participará de Aberturas da mesma forma!" }
+ - {title: "Expo Nacional", image: "workshop.jpg", text: "Uma enorme exposição interativa de projetos de vários Capítulos de todo o Brasil para você apresentar como se faz a Ordem DeMolay no seu Capítulo e aprender como ela é feita pelo Brasil afora. Os projetos também serão avaliados para premiação do mais interessante, de acordo com os parâmetros propostos." }
+ - {title: "Mostra Cultural Piauiense", image: "workshop.jpg", text: "Os Capítulos da Ordem DeMolay Piauiense, em conjunto com outras organizações paramaçônicas juvenis, irão expor traços da cultura local, envolvendo turismo, culinária, artesanato e arte. Nessa ocasião serão distribuídos brindes e vendidos alguns objetos culturais." }
+ - {title: "Torneio Frank Marshall de Ritualística", image: "workshop.jpg", text: "Está confirmado também o Torneio Nacional de Ritualística, agora com uma nova roupagem. Para quem ama Ritualística e não perde um desafio, o Torneio será INESQUECÍVEL!" }
+ - {title: "Assembleia Geral do SCODB e da Alumni Brasil", image: "workshop.jpg", text: "Como de costume, haverá a Assembleia Geral Ordinária do Supremo Conselho da Ordem DeMolay para o Brasil, ocasião em que a atual gestão irá fazer um balanço final de suas atividades e deliberaremos sobre os rumos de nossa instituição para o ano de 2017. A Associação DeMolay Alumni Brasil também realizará, nessa ocasião, seu encontro atual para decidir o destino da associação." }
+ - {title: "Turismo", image: "workshop.jpg", text: "Para encantar você de vez com o Piauí, está CONFIRMADO um passeio extra ao litoral piauiense que, apesar de ser um dos menores do nordeste, é considerado um dos mais belos e tranquilos! Então, programe-se para aproveitarmos no domingo (13) e na segunda (14) esse passeio, já que a terça (15) é feriado nacional. Dessa forma, se tiver interesse em curtir o litoral conosco, agende sua passagem de volta ao Estado somente para terça-feira (15), a partir das 15h. Mais informações sobre valores reservas estão disponíveis em breve!" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "participantes", detail: "de todo lugar"}
- - {count: "48", specialCharacter: "+", info: "horas", detail: "de puro conteúdo DeMolay"}
- - {count: "3", specialCharacter: "+", info: "palestrantes", detail: "do país e região"}
- - {count: "2", specialCharacter: "", info: "passeios regionais", detail: "para conhecer melhor nossa capital"}
+ - {count: "400", specialCharacter: "+", info: "participantes", detail: "de todo o Brasil"}
+ - {count: "48", specialCharacter: "+", info: "horas de pura interação DeMolay", detail: "no calor fraterno do Piauí"}
+ - {count: "1", specialCharacter: "+", info: "abertura", detail: "INESQUECÍVEL!!"}
 
 # Latest News Block
 latestNewsTitle: "Últimas notícias"
@@ -84,6 +88,12 @@ rockstarSpeakersImage: "rockstar-speakers.jpg"
 rockstarSpeakersCount: 4
 rockstarSpeakersTitle: "Palestrantes"
 rockstarSpeakersButtonText: "Veja todos palestrantes"
+
+# Social Media Block
+socialMediasImage: "social-media.jpg"
+socialMediasCount: 3
+socialMediasTitle: "Acompanhe"
+socialMediasButtonText: ""
 
 # Location Block
 locationBlockTitle: "Localização"
@@ -185,10 +195,6 @@ footerBlocks:
   title: "Contatos"
   links:
    - {link: "mailto:organizacao@23cnod.com", text: "organizacao@23cnod.com"}
- -
-  title: "FAQ"
-  links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
 
 # Blog
 blogTitle: "Últimas notícias"
@@ -200,7 +206,7 @@ showSessions: true
 
 # Team Block
 teamBlockTitle: "Sobre nós"
-aboutUs: "Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa."
+aboutUs: "O time de organização do XXIII Congresso Nacional divide as tarefas para otimizá-las, mas é uma família só! Mais do que Irmãos, somos amigos de longa data, já trabalhamos juntos na organização de diversos eventos e temos muitas ideias interessantes para colocar em prática. Aliás, mais do que ideias, agimos para isso! Saiba quem está dedicando suas noites de sonho para realizar o Congresso dos sonhos e, em caso de necessidade, contate-nos!"
 
 # Logistics Find Way Block
 findWayTitle: "Encontre seu caminho"
@@ -219,8 +225,8 @@ directionDetailsImage: "direction-details.jpg"
 directionDetailsTitle: "Comece ao redor de Teresina"
 directionDetailsCards:
  - {title: "Do aeroporto", information: 'Aeroporto está à esquerda da cidade. É facilmente acessível por carro, transporte público ou táxi. Mais informações estão disponíveis no <a href="http://www.infraero.gov.br/index.php/aeroportos/piaui/aeroporto-de-teresina.html">site do aeroporto</a>.'}
- - {title: "Hóteis", information: 'Teresina tem muitos bons hotéis e pousadas. Mais informações estarão disponíveis em breve.'}
- - {title: "City Tour", information: 'Esse passeio, de aproximadamente 4 horas, fornece ao visitante uma visão geral de Teresina e um contato com o passado e o presente da “Cidade Verde”. São visitados: Parque Municipal da Floresta Fóssil, Centro Cívico, Centro Cultural e Histórico, além pontos como Encontro dos Rios e mirante da ponte Estaiada. <a href="http://piauitour.com/novo/2010/02/citytour-em-teresina/" target="_blank">Mais informações sobre o serviço no link.</a>'}
+ - {title: "Hoteil Oficial", information: 'Velit Hotel <br/> Endereço: Av. dos Ipês, 382 - São João <br/> Telefone: 86 3233-4878 <br/> E-mail para reservas: Tarifas promocionais: '}
+ - {title: "Alojamento Tour", information: 'Dentro de poucos dias confirmaremos o local que servirá de alojamento, suas instalações e valor simbólico que será cobrado'}
 directionDetailsWideCards:
  -
   title: "Dúvidas?"
@@ -237,10 +243,9 @@ directionDetailsWideCards:
    -
     title: "Entretenimento"
     links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Pontos Turísticos"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Pubs"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Restaurantes"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Shows"}
+     - {link: "https://www.google.com.br/maps/search/pontos+tur%C3%ADsticos+perto+de+Teresina+-+PI/@-5.056354,-42.8136517,14z?hl=pt-BR", text: "Pontos Turísticos"}
+     - {link: "https://www.google.com.br/maps/search/pubs+Teresina+-+PI/@-5.0562681,-42.8136517,14z/data=!3m1!4b1?hl=pt-BR", text: "Pubs"}
+     - {link: "https://www.google.com.br/maps/search/restaurantes+Teresina+-+PI/@-5.0726093,-42.7913046,13.83z/data=!4m3!2m2!5m1!4e3?hl=pt-BR", text: "Restaurantes"}
 
 # Hackathon
 hackathonTitle: "Hackathon"

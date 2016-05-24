@@ -1,5 +1,17 @@
 -
   id: 0
+  name: "Yan"
+  surname: "Walter"
+  title: "Secretário Nacional"
+  thumbnailUrl: YanWalter.jpg
+  team: true
+  ribbon:
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social:
+    - {name: "facebook", link: "https://www.facebook.com/yan.walter.5"}
+    - {name: "email", link: "mailto:cnod@luizneto.org.br"}
+-
+  id: 1
   name: "Daniel"
   surname: "Santos"
   title: "Cerimonial"
@@ -9,8 +21,9 @@
     - {abbr: "GDG", title: "Google Developer Group"}
   social:
     - {name: "facebook", link: "https://www.facebook.com/danielsantosousa"}
+    - {name: "email", link: "mailto:danielsantosousa@gmail.com"}
 -
-  id: 1
+  id: 2
   name: "Cândido"
   surname: "Sales"
   title: "Comunicação"
@@ -23,17 +36,7 @@
     - {name: "github", link: "https://github.com/candidosales"}
     - {name: "facebook", link: "https://www.facebook.com/candidosales"}
     - {name: "site", link: "https://candidosalesg.wordpress.com/blog/"}
--
-  id: 2
-  name: "Johann"
-  surname: "Barros"
-  title: "Entretenimento"
-  thumbnailUrl: JohannBarros.jpg
-  team: true
-  ribbon:
-    - {abbr: "GDG", title: "Google Developer Group"}
-  social:
-    - {name: "facebook", link: "https://www.facebook.com/johann.barros"}
+    - {name: "email", link: "mailto:candidosg@gmail.com"}
 -
   id: 3
   name: "Marcelo"
@@ -45,6 +48,7 @@
     - {abbr: "GDG", title: "Google Developer Group"}
   social:
     - {name: "facebook", link: "https://www.facebook.com/marcelo.v.leal"}
+    - {name: "email", link: "mailto:marcelovlbarbosa@gmail.com"}
 -
   id: 4
   name: "Darlan"
@@ -54,22 +58,14 @@
   team: true
   social:
     - {name: "facebook", link: "https://www.facebook.com/darlanallyson.coelhosoares"}
+    - {name: "email", link: "mailto:darlanacsoares@gmail.com"}
 -
   id: 5
   name: "Higo"
   surname: "Soares"
-  title: "Comissão de Inscrição e Credenciamento"
+  title: "Inscrição e Credenciamento"
   thumbnailUrl: HigoMatos.jpg
   team: true
   social:
     - {name: "facebook", link: "https://www.facebook.com/higomatos"}
-# -
-#   id: 7
-#   name: "Valentyn"
-#   surname: "Shybanov"
-#   title: "Web and Cloud Program Committee"
-#   thumbnailUrl: ValentynShybanov.jpg
-#   subTeam: true
-#   social:
-#     - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
-#     - {name: "site", link: "http://olostan.name/"}
+    - {name: "email", link: "mailto:higomatos@gmail.com"}

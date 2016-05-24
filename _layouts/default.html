@@ -109,6 +109,28 @@ layout: compress
                         animationDelay -= 500;
                     }
                 }
+                
+               
+                var socialMedias = [
+                    {% for social in site.data.social %}
+                        {name: "{{ social.name }}", link: "{{ social.link }}", image: "{{ site.baseurl | append: '/img/sprites/sprites.svg#icon-' | append: social.name }}", title: "{{ social.title }}", viewBox: "{{ social.viewBox }}"}{% if forloop.index != forloop.length %},{% endif %}
+                    {% endfor %}
+                ];
+                socialMedias.sort(function() {return 0.5 - Math.random()});
+                if(socialMedias.length > 0) {
+                    var animationDelay = 1500,
+                        count = Math.min({{ site.socialMediasCount }}, socialMedias.length),
+                        colWidth = 12/count;
+                    for(i=0; i<count; i++) {
+                        var clearfix = '<div class="clearfix visible-xs"></div>';
+                        if ((i)%2 != 0) {
+                            clearfix = ""
+                        }
+                        $('#social-media-title').after('<div class="col-md-'+ colWidth +' col-xs-6 social-medias-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="social-media"><a class="flow-ing" href="' + socialMedias[i].link + '" target="_blank"><svg class="icon icon-' + socialMedias[i].name + '" viewBox="' + socialMedias[i].viewBox + '"><use xlink:href="' + socialMedias[i].image + '"></use></svg></a><div class="name">' + socialMedias[i].title + '</div></div></div>' + clearfix);
+                        animationDelay -= 500;
+                    }
+                }
+            
             });
         {% elsif page.permalink == '/logistica/' %}
             var googleMaps = 'logistics',
