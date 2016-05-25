@@ -3,6 +3,7 @@ layout: post
 title:  "Inscrições Abertas"
 date:   2016-05-19 09:00:00
 isStaticPost: false
+permalink: /blog/inscricoes-abertas.html
 ---
 
 É com muita alegria que declaramos oficialmente abertas as inscrições para o **XXIII Congresso Nacional da Ordem DeMolay**, a se realizar nos dias 11 e 12 de novembro em Teresina, Capital do Piauí. Pensando em reinventar o modelo de Congresso Nacional, estamos cuidando de cada momento do evento para ser único e inesquecível, a começar pela abertura (na sexta-feira, 11 de novembro de 2016)! 
