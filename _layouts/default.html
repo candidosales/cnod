@@ -126,7 +126,7 @@ layout: compress
                         if ((i)%2 != 0) {
                             clearfix = ""
                         }
-                        $('#social-media-title').after('<div class="col-md-'+ colWidth +' col-xs-6 social-medias-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="social-media"><a class="flow-ing" href="' + socialMedias[i].link + '" target="_blank"><svg class="icon icon-' + socialMedias[i].name + '" viewBox="' + socialMedias[i].viewBox + '"><use xlink:href="' + socialMedias[i].image + '"></use></svg></a><div class="name">' + socialMedias[i].title + '</div></div></div>' + clearfix);
+                        $('#social-media-title').after('<div class="col-md-'+ colWidth +' col-xs-12 social-medias-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="social-media"><a class="flow-ing" href="' + socialMedias[i].link + '" target="_blank"><svg class="icon icon-' + socialMedias[i].name + '" viewBox="' + socialMedias[i].viewBox + '"><use xlink:href="' + socialMedias[i].image + '"></use></svg></a><div class="name">' + socialMedias[i].title + '</div></div></div>' + clearfix);
                         animationDelay -= 500;
                     }
                 }
