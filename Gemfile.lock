@@ -115,6 +115,11 @@ GEM
     octokit (4.3.0)
       sawyer (~> 0.7.0, >= 0.5.3)
     public_suffix (1.5.3)
+    rack (1.6.4)
+    rack-jekyll (0.4.5)
+      jekyll (>= 1.3)
+      listen (>= 1.3)
+      rack (~> 1.5)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
@@ -132,14 +137,21 @@ GEM
       ethon (>= 0.8.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    wdm (0.1.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   autoprefixer-rails
+  bundler
   compass
   github-pages
+  jekyll
+  rack-jekyll
   sass-media_query_combiner
-  wdm (>= 0.1.1)
+
+RUBY VERSION
+   ruby 2.2.5p319
+
+BUNDLED WITH
+   1.12.4
