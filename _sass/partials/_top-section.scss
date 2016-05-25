@@ -30,16 +30,30 @@
     -webkit-transition: opacity .8s ease-in-out;
     .imgs {
       position: absolute;
-      width: 80%;
       width: 100%;
       bottom: 0;
       left: 50%;
       -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
       transform: translateX(-50%);
+      
+      @media (max-width: 767px) {
+        height: 100%;
+        left: 0%;
+      }
+      
       .main-img {
         position: relative;
         width: 100%
+      }
+      
+      @media (max-width: 767px) {
+        .main-img {
+          position: fixed;
+          width: 300%;
+          height: 100%;
+          left: -40%;
+        }
       }
     }
   }

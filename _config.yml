@@ -11,10 +11,10 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME','config.ru', 'Gemf
 
 # Site Settings
 title: "XXIII Congresso Nacional da Ordem DeMolay - 11 e 12 Novembro - Teresina, Piauí"
-email: "organizacao@23cnod.com"
+email: "cnod@luizneto.org.br"
 description: "Participe do XXIII Congresso Nacional da Ordem DeMolay que ocorrerá nos dias 11 e 12 de Novembro de Teresina-PI"
 baseurl: ""
-url: "http://localhost:4000"
+url: "http://www.cnod.org.br"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
 googleAnalyticsSiteUrl: "gdg-x.github.io"
@@ -24,7 +24,7 @@ siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 organizerName: "Secretário do Congresso"
 organizerAlternateName: "Google Developer Group Lviv"
 organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "organizacao@23cnod.com"
+organizerEmail: "cnod@luizneto.org.br"
 organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "http://lviv.gdg.org.ua/"
 
@@ -194,7 +194,7 @@ footerBlocks:
  -
   title: "Contatos"
   links:
-   - {link: "mailto:organizacao@23cnod.com", text: "organizacao@23cnod.com"}
+   - {link: "mailto:cnod@luizneto.org.br", text: "cnod@luizneto.org.br"}
 
 # Blog
 blogTitle: "Últimas notícias"
