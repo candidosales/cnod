@@ -68,10 +68,10 @@ aboutTitle: "Sobre XXIII CNOD"
 aboutBlock:
  - {title: "Abertura dos sonhos", image: "conference.jpg", text: "Nosso objetivo, ao propor a organização do CNOD 2016, era fazer algo totalmente diferente e inovador. Quebra paradigmas. Revolucionar o modo de se pensar os Congressos DeMolay. Para fazer jus a esse objetivo, convidamos você para se programar em NÃO PERDER a Abertura do Congresso Nacional, a se realizar na noite da sexta-feira, 11 de novembro de 2016. Serão tantas surpresas e emoções... Você nunca mais participará de Aberturas da mesma forma!" }
  - {title: "Expo Nacional", image: "workshop.jpg", text: "Uma enorme exposição interativa de projetos de vários Capítulos de todo o Brasil para você apresentar como se faz a Ordem DeMolay no seu Capítulo e aprender como ela é feita pelo Brasil afora. Os projetos também serão avaliados para premiação do mais interessante, de acordo com os parâmetros propostos." }
- - {title: "Mostra Cultural Piauiense", image: "workshop.jpg", text: "Os Capítulos da Ordem DeMolay Piauiense, em conjunto com outras organizações paramaçônicas juvenis, irão expor traços da cultura local, envolvendo turismo, culinária, artesanato e arte. Nessa ocasião serão distribuídos brindes e vendidos alguns objetos culturais." }
- - {title: "Torneio Frank Marshall de Ritualística", image: "workshop.jpg", text: "Está confirmado também o Torneio Nacional de Ritualística, agora com uma nova roupagem. Para quem ama Ritualística e não perde um desafio, o Torneio será INESQUECÍVEL!" }
- - {title: "Assembleia Geral do SCODB e da Alumni Brasil", image: "workshop.jpg", text: "Como de costume, haverá a Assembleia Geral Ordinária do Supremo Conselho da Ordem DeMolay para o Brasil, ocasião em que a atual gestão irá fazer um balanço final de suas atividades e deliberaremos sobre os rumos de nossa instituição para o ano de 2017. A Associação DeMolay Alumni Brasil também realizará, nessa ocasião, seu encontro atual para decidir o destino da associação." }
- - {title: "Turismo", image: "workshop.jpg", text: "Para encantar você de vez com o Piauí, está CONFIRMADO um passeio extra ao litoral piauiense que, apesar de ser um dos menores do nordeste, é considerado um dos mais belos e tranquilos! Então, programe-se para aproveitarmos no domingo (13) e na segunda (14) esse passeio, já que a terça (15) é feriado nacional. Dessa forma, se tiver interesse em curtir o litoral conosco, agende sua passagem de volta ao Estado somente para terça-feira (15), a partir das 15h. Mais informações sobre valores reservas estão disponíveis em breve!" }
+ - {title: "Mostra Cultural Piauiense", image: "cultura.png", text: "Os Capítulos da Ordem DeMolay Piauiense, em conjunto com outras organizações paramaçônicas juvenis, irão expor traços da cultura local, envolvendo turismo, culinária, artesanato e arte. Nessa ocasião serão distribuídos brindes e vendidos alguns objetos culturais." }
+ - {title: "Torneio Frank Marshall de Ritualística", image: "torneio.png", text: "Está confirmado também o Torneio Nacional de Ritualística, agora com uma nova roupagem. Para quem ama Ritualística e não perde um desafio, o Torneio será INESQUECÍVEL!" }
+ - {title: "Assembleia Geral do SCODB e da Alumni Brasil", image: "assembleia.png", text: "Como de costume, haverá a Assembleia Geral Ordinária do Supremo Conselho da Ordem DeMolay para o Brasil, ocasião em que a atual gestão irá fazer um balanço final de suas atividades e deliberaremos sobre os rumos de nossa instituição para o ano de 2017. A Associação DeMolay Alumni Brasil também realizará, nessa ocasião, seu encontro atual para decidir o destino da associação." }
+ - {title: "Turismo", image: "turismo.png", text: "Para encantar você de vez com o Piauí, está CONFIRMADO um passeio extra ao litoral piauiense que, apesar de ser um dos menores do nordeste, é considerado um dos mais belos e tranquilos! Então, programe-se para aproveitarmos no domingo (13) e na segunda (14) esse passeio, já que a terça (15) é feriado nacional. Dessa forma, se tiver interesse em curtir o litoral conosco, agende sua passagem de volta ao Estado somente para terça-feira (15), a partir das 15h. Mais informações sobre valores reservas estão disponíveis em breve!" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
@@ -91,25 +91,25 @@ rockstarSpeakersButtonText: "Veja todos palestrantes"
 
 # Social Media Block
 socialMediasImage: "social-media.jpg"
-socialMediasCount: 3
+socialMediasCount: 1
 socialMediasTitle: "Acompanhe"
 socialMediasButtonText: ""
 
 # Location Block
-locationBlockTitle: "Localização"
-eventLocationName: "Blue Tree Towers Rio Poty Hotel"
-eventLocationLink: "http://www.bluetree.com.br/hotel/blue-tree-towers-rio-poty/"
-eventStreetAddress: "Av. Mal. Castelo Branco, 555 - Ilhotas"
+locationBlockTitle: "Abertura"
+eventLocationName: "Auditório Ipê – Uninovafapi"
+eventLocationLink: 
+eventStreetAddress: "Rua Vitorino Orthiges Fernandes, 6123 – Uruguai"
 eventAddressLocality: "Teresina"
 eventAddressLocalityRegion: "Piauí"
 eventPostalCode: "64014058"
 eventAddressCountry: "Brasil"
-eventStartTime: "2016-10-24T10:00"
-eventDoorTime: "09:00"
-eventEndTime: "2016-10-25T20:00"
-eventPlaceCoordinates: "-5.0873815, -42.7961361"
-mapCenterCoordinates: "-5.0873815, -42.7961361"
-mapMobileCenterCoordinates: "-5.0873815, -42.7961361"
+eventStartTime: "2016-11-11T19:00"
+eventDoorTime: "19:00"
+eventEndTime: "2016-11-11T23:00"
+eventPlaceCoordinates: "-5.0690425, -42.7494488"
+mapCenterCoordinates: "-5.0690425, -42.7494488"
+mapMobileCenterCoordinates: "-5.0690425, -42.7494488"
 
 # Venue Block
 venueBlockTitle: "Ponto de encontro"
