@@ -124,7 +124,7 @@ venueFeatures: ["3 telões", "Sistema de aúdio Doulby Digital Surround EX", "Lo
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "E aí?"
 twitterHashTag: "XXIIICNOD"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+# twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
 organizersTitle: "Organizadores"
