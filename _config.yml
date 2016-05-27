@@ -50,9 +50,9 @@ navigationLinks:
  - {permalink: "/logistica/", text: "Logística"}
  
 bottomNavigationLinks:
- - {permalink: "/#tickets", text: "Inscreva-se"}
+ - {permalink: "http://52.67.49.12/", text: "Inscreva-se"}
 rightNavigationButtons:
- - {permalink: "/#tickets", text: "Inscreva-se"}
+ - {permalink: "http://52.67.49.12/", text: "Inscreva-se"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -61,7 +61,7 @@ eventDate: "Teresina, 11 e 12 de Novembro, 2016"
 typeoutTextValues: '"Amor Filial", "Cortesia", "Companherismo", "Fidelidade", "Pureza", "Patriotismo"'
 typeoutFallback: "Teresina"
 heroButtons:
- - {permalink: "/#tickets", text: "Faça sua inscrição"}
+ - {permalink: "http://52.67.49.12/", text: "Faça sua inscrição"}
 
 # About Block
 aboutTitle: "Sobre XXIII CNOD"
@@ -199,7 +199,7 @@ footerBlocks:
 # Blog
 blogTitle: "Últimas notícias"
 blogCommentsEnabled: true
-discusShortName: "devfestua"
+discusShortName: "xxiiicnod"
 
 # Speakers List Block
 showSessions: true
