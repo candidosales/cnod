@@ -22,4 +22,4 @@ Por fim, ratificamos que o **Capítulo Luiz Ribeiro Gonçalves Neto**, nº 408 d
 Envie e-mail para [cnod@luizneto.org.br](mailto:cnod@luizneto.org.br) ou entre em contato por whatsapp pelo número 86 9 8137-6768.
 
 #### Conheça Teresina
-<iframe width="853" height="480" src="https://www.youtube.com/embed/q0P_n9wqXzE" frameborder="0" allowfullscreen></iframe>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/ie7JqbCZ1so" frameborder="0" allowfullscreen></iframe>
