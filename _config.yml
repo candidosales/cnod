@@ -225,7 +225,7 @@ directionDetailsImage: "direction-details.jpg"
 directionDetailsTitle: "Comece ao redor de Teresina"
 directionDetailsCards:
  - {title: "Do aeroporto", information: 'Aeroporto está à esquerda da cidade. É facilmente acessível por carro, transporte público ou táxi. Mais informações estão disponíveis no <a href="http://www.infraero.gov.br/index.php/aeroportos/piaui/aeroporto-de-teresina.html">site do aeroporto</a>.'}
- - {title: "Hoteil Oficial", information: 'Velit Hotel <br/> Endereço: Av. dos Ipês, 382 - São João <br/> Telefone: 86 3233-4878 <br/> E-mail para reservas: Tarifas promocionais: '}
+ - {title: "Hotel Oficial", information: 'Dentro de poucos dias confirmaremos o local que servirá de alojamento, suas instalações e valor simbólico que será cobrado'}
  - {title: "Alojamento Tour", information: 'Dentro de poucos dias confirmaremos o local que servirá de alojamento, suas instalações e valor simbólico que será cobrado'}
 directionDetailsWideCards:
  -
