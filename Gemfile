@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-ruby '2.2.5'
+ruby '2.2.3'
 gem 'bundler'
 gem 'jekyll'
 gem 'rack-jekyll'

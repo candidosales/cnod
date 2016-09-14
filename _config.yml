@@ -58,7 +58,7 @@ rightNavigationButtons:
 heroImage: "hero.jpg"
 heroTitle: "XXIII CNOD - <typeout>"
 eventDate: "Teresina, 11 e 12 de Novembro, 2016"
-typeoutTextValues: '"Amor Filial", "Cortesia", "Companherismo", "Fidelidade", "Pureza", "Patriotismo"'
+typeoutTextValues: '"Amor Filial", "Cortesia", "Companheirismo", "Fidelidade", "Pureza", "Patriotismo"'
 typeoutFallback: "Teresina"
 heroButtons:
  - {permalink: "http://52.67.49.12/", text: "Faça sua inscrição"}
@@ -97,19 +97,19 @@ socialMediasButtonText: ""
 
 # Location Block
 locationBlockTitle: "Abertura"
-eventLocationName: "Auditório Ipê – Uninovafapi"
+eventLocationName: "Auditório da OAB"
 eventLocationLink: 
-eventStreetAddress: "Rua Vitorino Orthiges Fernandes, 6123 – Uruguai"
+eventStreetAddress: "R. Jucá Trindade, 382 – Cabral"
 eventAddressLocality: "Teresina"
 eventAddressLocalityRegion: "Piauí"
-eventPostalCode: "64014058"
+eventPostalCode: "64000-750"
 eventAddressCountry: "Brasil"
 eventStartTime: "2016-11-11T19:00"
 eventDoorTime: "19:00"
 eventEndTime: "2016-11-11T23:00"
-eventPlaceCoordinates: "-5.0690425, -42.7494488"
-mapCenterCoordinates: "-5.0690425, -42.7494488"
-mapMobileCenterCoordinates: "-5.0690425, -42.7494488"
+eventPlaceCoordinates: "-5.080871, -42.800185"
+mapCenterCoordinates: "-5.080871, -42.800185"
+mapMobileCenterCoordinates: "-5.080871, -42.800185"
 
 # Venue Block
 venueBlockTitle: "Ponto de encontro"
@@ -225,8 +225,8 @@ directionDetailsImage: "direction-details.jpg"
 directionDetailsTitle: "Comece ao redor de Teresina"
 directionDetailsCards:
  - {title: "Do aeroporto", information: 'Aeroporto está à esquerda da cidade. É facilmente acessível por carro, transporte público ou táxi. Mais informações estão disponíveis no <a href="http://www.infraero.gov.br/index.php/aeroportos/piaui/aeroporto-de-teresina.html">site do aeroporto</a>.'}
- - {title: "Hotel Oficial", information: 'Dentro de poucos dias confirmaremos o local que servirá de alojamento, suas instalações e valor simbólico que será cobrado'}
- - {title: "Alojamento Tour", information: 'Dentro de poucos dias confirmaremos o local que servirá de alojamento, suas instalações e valor simbólico que será cobrado'}
+ - {title: "Hotel Oficial", information: '<a href="http://www.bluetree.com.br/hotel/blue-tree-towers-rio-poty/" target="_blank">Blue Tree Towers Rio Poty</a>'}
+ - {title: "Alojamento", information: 'O alojamento será no centro treinamento da EMATER do Piauí. Dista 10km da cidade, mas é totalmente estruturado. São quartos com banheiro, ar-condicionado e 5 camas de solteiro cada. O congressista somente precisa trazer material de higiene pessoal. Será disponibilizado deslocamento para as atividades oficiais do Congresso, com horários de partida e retorno.'}
 directionDetailsWideCards:
  -
   title: "Dúvidas?"
@@ -234,12 +234,15 @@ directionDetailsWideCards:
    -
     title: "Hóteis"
     links:
-     - {link: "http://www.metropolitanhotel.com.br/", text: "Metropolitan Hotel"}
-     - {link: "http://www.bluetree.com.br/hotel/blue-tree-towers-rio-poty/", text: "Blue Tree Towers Rio Poty Hotel"}
+     - {link: "/blog/hoteis.html", text: "Quais os hóteis conveniados?"}
    -
     title: "Credenciamento"
     links:
      - {link: "http://www.bluetree.com.br/hotel/blue-tree-towers-rio-poty/", text: "Blue Tree Towers Rio Poty Hotel"}
+   -
+    title: "Abertura"
+    links:
+     - {link: "https://www.google.com.br/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=auditório OAB Teresina&tbs=lf:1,lf_ui:2&rflfq=1&rlha=0&rllag=-5080871,-42800185,102&tbm=lcl&rldimm=3963171705120309786", text: "Auditório da OAB"}
    -
     title: "Entretenimento"
     links:
