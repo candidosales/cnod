@@ -232,9 +232,9 @@ directionDetailsWideCards:
   title: "Dúvidas?"
   subCards:
    -
-    title: "Hóteis"
+    title: "Hotéis"
     links:
-     - {link: "/blog/hoteis.html", text: "Quais os hóteis conveniados?"}
+     - {link: "/blog/hoteis.html", text: "Quais os hotéis conveniados?"}
    -
     title: "Credenciamento"
     links:
@@ -289,3 +289,5 @@ viewOnMap: "Veja no Google Maps"
 hackathonPlaceCoordinates: "49.840999, 24.031144"
 hackathonMapCenterCoordinates: "49.840696, 24.028754"
 hackathonMapMobileCenterCoordinates: "49.841639, 24.031182"
+
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
